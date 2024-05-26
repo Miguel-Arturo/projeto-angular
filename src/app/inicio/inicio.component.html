@@ -1,27 +1,64 @@
 <main>
 
-    <section id="section-banner">
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="src/assets/img/pexels-a-darmel-7862272.jpg" class="d-block w-100" alt="jogo">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+  <section id="section-banner">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../../assets/img/pexels-pixabay-163036.jpg" class="d-block w-100" alt="jogo">
         </div>
-    </section>
+        <div class="carousel-item">
+          <img src="../../assets/img/pexels-eye4dtail-374914.jpg" class="d-block w-100" alt="joystick">
+        </div>
+        <div class="carousel-item">
+          <img src="../../assets/img/toys-2791660_1280.jpg" class="d-block w-100" alt="street fighter">
+        </div>
+        <div class="carousel-item">
+          <img src="../../assets/img/pexels-pixabay-371924.jpg" class="d-block w-100" alt="nintendo">
+        </div>
+        <div class="carousel-item">
+          <img src="../../assets/img/pexels-francesco-ungaro-1670977.jpg" class="d-block w-100" alt="vintage">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+  </section>
+
+  <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>1</mat-grid-tile>
+    <mat-grid-tile>2</mat-grid-tile>
+    <mat-grid-tile>3</mat-grid-tile>
+    <mat-grid-tile>4</mat-grid-tile>
+  </mat-grid-list>
+
+  <mat-card class="example-card">
+
+    <img mat-card-image src="../../assets/img/jogo1.jpg" alt="jogo1">
+
+    <mat-card-header>
+      <mat-card-title>Super Mario Wonder</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        DIVIRTA-SE COM MÁRIO. A jogabilidade clássica dos jogos do Mario virou de ponta-cabeça com as flores fenomenais
+        no jogo Super Mario Bros. Wonder!
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <p>R$ 300,00</p>
+      <button mat-button>COMPRAR</button>
+    </mat-card-actions>
+  </mat-card>
+
 
 </main>
